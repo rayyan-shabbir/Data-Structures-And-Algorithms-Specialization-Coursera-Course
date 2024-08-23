@@ -1,6 +1,3 @@
-# Use Python3
-
-
 def maxWeight(capacity, items):
     n = len(items)
     T = [[0] * (capacity + 1) for _ in range(n + 1)]
